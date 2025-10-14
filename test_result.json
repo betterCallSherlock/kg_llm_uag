@@ -1,0 +1,657 @@
+{
+  "chosen_lambda": [
+    0.15,
+    0.1,
+    0.05
+  ],
+  "lambda_stats": [
+    {
+      "lambda": [
+        0.4,
+        0.3,
+        0.2
+      ],
+      "ecr": 0.42105263157894735,
+      "avg_size": 1.8421052631578947,
+      "valid": false
+    },
+    {
+      "lambda": [
+        0.3,
+        0.25,
+        0.2
+      ],
+      "ecr": 0.42105263157894735,
+      "avg_size": 1.8421052631578947,
+      "valid": false
+    },
+    {
+      "lambda": [
+        0.3,
+        0.2,
+        0.1
+      ],
+      "ecr": 0.631578947368421,
+      "avg_size": 2.789473684210526,
+      "valid": false
+    },
+    {
+      "lambda": [
+        0.2,
+        0.2,
+        0.1
+      ],
+      "ecr": 0.631578947368421,
+      "avg_size": 2.789473684210526,
+      "valid": false
+    },
+    {
+      "lambda": [
+        0.15,
+        0.1,
+        0.05
+      ],
+      "ecr": 0.8421052631578947,
+      "avg_size": 9.0,
+      "valid": true
+    }
+  ],
+  "test_eval": {
+    "ecr": 0.7333333333333333,
+    "avg_size": 2.1666666666666665,
+    "mean_conf": 0.7128887575536472,
+    "details": [
+      {
+        "id": "WebQTest-0",
+        "question": "what does jamaican people speak",
+        "true": [
+          "jamaican english",
+          "jamaican creole english language"
+        ],
+        "pred": [
+          "jamaican english",
+          "jamaican creole english language"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Jamaican English": 0.9626852505314344,
+          "Jamaican Creole English Language": 0.9651578026001522
+        },
+        "avg_conf": 0.9639215265657932
+      },
+      {
+        "id": "WebQTest-1",
+        "question": "what did james k polk do before he was president",
+        "true": [
+          "governor of tennessee",
+          "united states representative",
+          "speaker of the united states house of representatives"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-3",
+        "question": "who plays ken barlow in coronation street",
+        "true": [
+          "william roache"
+        ],
+        "pred": [
+          "william roache"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "William Roache": 0.9475456745953074
+        },
+        "avg_conf": 0.9475456745953074
+      },
+      {
+        "id": "WebQTest-6",
+        "question": "where is jamarcus russell from",
+        "true": [
+          "mobile"
+        ],
+        "pred": [
+          "mobile"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Mobile": 0.9777526609002436
+        },
+        "avg_conf": 0.9777526609002436
+      },
+      {
+        "id": "WebQTest-7",
+        "question": "where was george washington carver from",
+        "true": [
+          "diamond"
+        ],
+        "pred": [
+          "diamond"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Diamond": 0.9757773370050861
+        },
+        "avg_conf": 0.9757773370050861
+      },
+      {
+        "id": "WebQTest-8",
+        "question": "what else did ben franklin invent",
+        "true": [
+          "glass harmonica",
+          "franklin stove",
+          "lightning rod",
+          "bifocals"
+        ],
+        "pred": [
+          "glass harmonica",
+          "franklin stove",
+          "lightning rod",
+          "bifocals"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Franklin stove": 0.9750865937334372,
+          "Bifocals": 0.9662834768423363,
+          "Lightning rod": 0.9668138431404807,
+          "Glass harmonica": 0.9616657058558342
+        },
+        "avg_conf": 0.967462404893022
+      },
+      {
+        "id": "WebQTest-9",
+        "question": "who was richard nixon married to",
+        "true": [
+          "pat nixon"
+        ],
+        "pred": [
+          "pat nixon"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Pat Nixon": 0.9725442356440244
+        },
+        "avg_conf": 0.9725442356440244
+      },
+      {
+        "id": "WebQTest-12",
+        "question": "who is governor of ohio 2011",
+        "true": [
+          "john kasich",
+          "ted strickland",
+          "return j. meigs, jr."
+        ],
+        "pred": [
+          "john kasich",
+          "ted strickland",
+          "return j. meigs, jr."
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Ted Strickland": 0.8961122447728395,
+          "John Kasich": 0.925886658138985,
+          "Return J. Meigs, Jr.": 0.9007377548081088
+        },
+        "avg_conf": 0.9075788859066444
+      },
+      {
+        "id": "WebQTest-13",
+        "question": "who was vice president after kennedy died",
+        "true": [
+          "lyndon b. johnson"
+        ],
+        "pred": [
+          "lyndon b. johnson"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Lyndon B. Johnson": 0.9607605065305594
+        },
+        "avg_conf": 0.9607605065305594
+      },
+      {
+        "id": "WebQTest-14",
+        "question": "where is the fukushima daiichi nuclear plant located",
+        "true": [
+          "japan",
+          "okuma"
+        ],
+        "pred": [
+          "japan",
+          "okuma"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Okuma": 0.9875002983987141,
+          "Japan": 0.9925935302661316
+        },
+        "avg_conf": 0.9900469143324229
+      },
+      {
+        "id": "WebQTest-16",
+        "question": "what countries are part of the uk",
+        "true": [
+          "northern ireland",
+          "england",
+          "scotland",
+          "wales"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-19",
+        "question": "what is my timezone in louisiana",
+        "true": [
+          "central time zone"
+        ],
+        "pred": [
+          "central time zone"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Central Time Zone": 0.9895725483778358
+        },
+        "avg_conf": 0.9895725483778358
+      },
+      {
+        "id": "WebQTest-20",
+        "question": "what did st augustine do",
+        "true": [
+          "physician",
+          "philosopher",
+          "writer"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-21",
+        "question": "who is keyshia cole dad",
+        "true": [
+          "leon cole",
+          "sal gibson",
+          "francine lons"
+        ],
+        "pred": [
+          "leon cole",
+          "sal gibson",
+          "francine lons"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Francine Lons": 0.9734264557944461,
+          "Leon Cole": 0.9803086385641214,
+          "Sal Gibson": 0.9675814572853542
+        },
+        "avg_conf": 0.9737721838813073
+      },
+      {
+        "id": "WebQTest-22",
+        "question": "what kind government does egypt have",
+        "true": [
+          "semi-presidential system",
+          "provisional government"
+        ],
+        "pred": [
+          "russia",
+          "provisional government",
+          "semi-presidential system"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Russia": 0.9530963188659212,
+          "Provisional government": 0.9724202300897861,
+          "Semi-presidential system": 0.9779641447209642
+        },
+        "avg_conf": 0.9678268978922238
+      },
+      {
+        "id": "WebQTest-23",
+        "question": "what town was martin luther king assassinated in",
+        "true": [
+          "memphis"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-24",
+        "question": "where did edgar allan poe died",
+        "true": [
+          "baltimore"
+        ],
+        "pred": [
+          "baltimore"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Baltimore": 0.9778009913509662
+        },
+        "avg_conf": 0.9778009913509662
+      },
+      {
+        "id": "WebQTest-26",
+        "question": "what to do today in atlanta with kids",
+        "true": [
+          "cnn center",
+          "omni coliseum",
+          "woodruff arts center",
+          "georgia world congress center",
+          "georgia aquarium",
+          "hyatt regency atlanta",
+          "peachtree road race",
+          "atlanta cyclorama & civil war museum",
+          "six flags white water",
+          "masquerade",
+          "atlanta history center",
+          "variety playhouse",
+          "georgia dome",
+          "margaret mitchell house & museum",
+          "cobb energy performing arts centre",
+          "turner field",
+          "underground atlanta",
+          "centennial olympic park",
+          "atlanta symphony orchestra",
+          "arbor place mall",
+          "fernbank science center",
+          "four seasons hotel atlanta",
+          "fox theatre",
+          "six flags over georgia",
+          "atlanta ballet",
+          "fernbank museum of natural history",
+          "world of coca-cola",
+          "atlanta jewish film festival",
+          "georgia state capitol",
+          "center for puppetry arts",
+          "the tabernacle",
+          "zoo atlanta",
+          "martin luther king, jr. national historic site",
+          "jimmy carter library and museum",
+          "philips arena",
+          "atlanta marriott marquis"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-28",
+        "question": "what electorate does anna bligh represent",
+        "true": [
+          "electoral district of south brisbane"
+        ],
+        "pred": [
+          "electoral district of south brisbane"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Electoral district of South Brisbane": 0.9658142829473355
+        },
+        "avg_conf": 0.9658142829473355
+      },
+      {
+        "id": "WebQTest-31",
+        "question": "where did andy murray started playing tennis",
+        "true": [
+          "2005"
+        ],
+        "pred": [
+          "2005"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "2005": 0.9757600646156344
+        },
+        "avg_conf": 0.9757600646156344
+      },
+      {
+        "id": "WebQTest-32",
+        "question": "what is the australian dollar called",
+        "true": [
+          "aud"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-33",
+        "question": "what timezone is sweden",
+        "true": [
+          "central european time zone"
+        ],
+        "pred": [
+          "central european time zone"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Central European Time Zone": 0.9915057215511723
+        },
+        "avg_conf": 0.9915057215511723
+      },
+      {
+        "id": "WebQTest-34",
+        "question": "who did cam newton sign with",
+        "true": [
+          "carolina panthers"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-35",
+        "question": "what county is frederick md in",
+        "true": [
+          "frederick county"
+        ],
+        "pred": [
+          "frederick county"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Frederick County": 0.9801556434607622
+        },
+        "avg_conf": 0.9801556434607622
+      },
+      {
+        "id": "WebQTest-36",
+        "question": "what highschool did harper lee go to",
+        "true": [
+          "monroe county high school"
+        ],
+        "pred": [
+          "monroe county high school"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Monroe County High School": 0.9765148368689285
+        },
+        "avg_conf": 0.9765148368689285
+      },
+      {
+        "id": "WebQTest-37",
+        "question": "what timezone is utah in",
+        "true": [
+          "mountain time zone"
+        ],
+        "pred": [
+          "mountain time zone"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Mountain Time Zone": 0.9890419011097666
+        },
+        "avg_conf": 0.9890419011097666
+      },
+      {
+        "id": "WebQTest-38",
+        "question": "who did george w. bush run against for the second term",
+        "true": [
+          "ralph nader",
+          "gene amondson",
+          "john kerry",
+          "michael peroutka"
+        ],
+        "pred": [],
+        "covered": false,
+        "per_answer_conf": {},
+        "avg_conf": 0.0
+      },
+      {
+        "id": "WebQTest-39",
+        "question": "who is niall ferguson 's wife",
+        "true": [
+          "ayaan hirsi ali"
+        ],
+        "pred": [
+          "ayaan hirsi ali"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Ayaan Hirsi Ali": 0.9672817522761121
+        },
+        "avg_conf": 0.9672817522761121
+      },
+      {
+        "id": "WebQTest-41",
+        "question": "where is the galapagos islands located on a world map",
+        "true": [
+          "galápagos province",
+          "ecuador",
+          "pacific ocean"
+        ],
+        "pred": [
+          "galápagos province",
+          "ecuador",
+          "pacific ocean"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Pacific Ocean": 0.9896043202840632,
+          "Galápagos Province": 0.9872299000077793,
+          "Ecuador": 0.989530177952129
+        },
+        "avg_conf": 0.9887881327479905
+      },
+      {
+        "id": "WebQTest-42",
+        "question": "what are the songs that justin bieber wrote",
+        "true": [
+          "roller coaster",
+          "thought of you",
+          "never say never",
+          "live my life",
+          "heartbreaker",
+          "all that matters",
+          "all around the world",
+          "somebody to love",
+          "pray",
+          "never let you go",
+          "baby",
+          "right here",
+          "pyd",
+          "confident",
+          "#thatpower",
+          "recovery",
+          "bad day",
+          "eenie meenie",
+          "change me",
+          "lolly",
+          "wait for a minute",
+          "bigger",
+          "beauty and a beat",
+          "die in your arms",
+          "hold tight",
+          "turn to you (mother's day dedication)",
+          "home to mama",
+          "boyfriend",
+          "as long as you love me",
+          "all bad",
+          "first dance"
+        ],
+        "pred": [
+          "roller coaster",
+          "thought of you",
+          "never say never",
+          "live my life",
+          "heartbreaker",
+          "all that matters",
+          "all around the world",
+          "somebody to love",
+          "pray",
+          "never let you go",
+          "baby",
+          "right here",
+          "pyd",
+          "confident",
+          "#thatpower",
+          "recovery",
+          "bad day",
+          "eenie meenie",
+          "change me",
+          "lolly",
+          "wait for a minute",
+          "hold tight",
+          "beauty and a beat",
+          "die in your arms",
+          "bigger",
+          "turn to you (mother's day dedication)",
+          "home to mama",
+          "boyfriend",
+          "as long as you love me",
+          "all bad",
+          "first dance"
+        ],
+        "covered": true,
+        "per_answer_conf": {
+          "Thought Of You": 0.9824240883175522,
+          "Die in Your Arms": 0.9745594953925448,
+          "Never Say Never": 0.9717601561877455,
+          "PYD": 0.9788256174010602,
+          "Bigger": 0.9810200100972993,
+          "Hold Tight": 0.9812116668223996,
+          "Roller Coaster": 0.9840144073079568,
+          "Eenie Meenie": 0.9764651763608417,
+          "Recovery": 0.9812887722427308,
+          "Home to Mama": 0.9792263343764086,
+          "Lolly": 0.9744989480533763,
+          "First Dance": 0.9806017516809802,
+          "Live My Life": 0.9812954469628252,
+          "Never Let You Go": 0.9776085914298562,
+          "Boyfriend": 0.9849744373061564,
+          "Beauty And A Beat": 0.9806181577212966,
+          "Pray": 0.978441116996642,
+          "All Around The World": 0.9846694714178343,
+          "#thatPower": 0.9749379443866804,
+          "Bad Day": 0.9807679762179389,
+          "Wait for a Minute": 0.9795120003410459,
+          "All That Matters": 0.9820087528492905,
+          "Confident": 0.9826383575601128,
+          "Turn to You (Mother's Day Dedication)": 0.9743739080668905,
+          "Somebody to Love": 0.9814758721313773,
+          "Baby": 0.984791173833162,
+          "As Long as You Love Me": 0.9676859946312429,
+          "Heartbreaker": 0.9766683184785432,
+          "Change Me": 0.9779705868351183,
+          "All Bad": 0.9833867664353202,
+          "Right Here": 0.982845020002352
+        },
+        "avg_conf": 0.9794376231562769
+      }
+    ]
+  }
+}
